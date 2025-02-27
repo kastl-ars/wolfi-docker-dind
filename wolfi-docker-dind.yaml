@@ -18,7 +18,9 @@ contents:
     - kind
 
 environment:
-  PATH: /usr/sbin:/sbin:/usr/bin:/bin
+  PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+  DOCKER_TLS_CERTDIR: /certs
+  SSL_CERT_FILE: /etc/ssl/certs/ca-certificates.crt
 
 entrypoint:
   command: /usr/bin/dockerd-entrypoint.sh
