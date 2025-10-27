@@ -11,4 +11,4 @@ GitHub Action.
 
 The container image contains software packages that are direct or transitive
 dependencies. As renovate is the most prominent one, I have taken its license
-`AGPL-3.0-only` as a license for this repository, too.
+`Apache-2.0` as a license for this repository, too.
